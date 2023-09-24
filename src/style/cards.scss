@@ -1,0 +1,68 @@
+
+
+.miniCard {
+  display: flex;
+  align-items: center;
+  width: calc(25% - 90px / 4);
+  cursor: pointer;
+  &__img {
+    width: 100% !important;
+  }
+  img {
+    width: 30%;
+
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+  }
+  &__name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__desc {
+    color: #F7D22D;
+    font-size: 16px;
+    font-weight: 800;
+  }
+}
+
+.miniCardcart {
+  width: calc(33.33333% - 60px / 3);
+  margin-left: 50px;
+}
+
+.sauceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(16.66666% - 17px);
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 30px;
+  img {
+    width: 40%;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__name {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  &__desc {
+    color: #FF2E65;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 815px) {
+  .miniCard {
+    width: calc(50% - 30px);
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "calls": [
+    {
+      "name": "jsbgsrbg",
+      "tel": "",
+      "id": 1
+    }
+  ],
+  "orders": [],
+  "promocodes": [
+    {
+      "name": "razrabdebik",
+      "value": 20,
+      "id": 1
+    },
+    {
+      "name": "mom",
+      "value": "30",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "пицца"
+    },
+    {
+      "name": "пирожное",
+      "id": 5
+    },
+    {
+      "name": "суп",
+      "id": 6
+    },
+    {
+      "name": "салат",
+      "id": 7
+    },
+    {
+      "name": "напиток",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 8,
+      "category": "пицца",
+      "title": "Итальянка",
+      "price": 598,
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Italianka_30sm/Medium.png?hash=20ad7fcd72e108089f2ca2fe79364e44",
+      "desc": "Пицца Итальянка. Пицца-соус, сыр моцарелла, говядина с грибами Вешенками в сливочном соусе, зелень. Italian Pizza. Pizza sauce, mozzarella, beef with oyster mushrooms in creamy sauce, greens.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "пицца",
+      "title": "Карри",
+      "price": 538,
+      "new": true,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Karri_30sm/Medium.png?hash=ad9ccd83b74f2a2280988b57f9926449",
+      "desc": "Пицца Карри. Пицца-соус, сыр моцарелла, курица карри в остром фирменном соусе, кинза. Curry Pizza. Pizza sauce, mozzarella, curry chicken in spicy sauce, cilantro.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "пицца",
+      "title": "Маргарита",
+      "price": 278,
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v1/Pitstsa_30sm/Margarita_30sm/Medium.png?hash=e7ac3d125c355e46ec2091677801f5eb",
+      "desc": "Пицца Маргарита. Пицца-соус, сыр моцарелла, орегано, помидоры, базилик. Margarita Pizza. Pizza sauce, mozzarella, oregano, tomatoes, basil.",
+      "adds": [
+        "Без помидор",
+        "Без орегано",
+        "без базилика"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "пицца",
+      "title": "Мегапепперони",
+      "price": 458,
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Megapepperoni_30sm/Medium.png?hash=24df5e20c3f01721a664cff222ca728b",
+      "desc": "Пицца Мега Пепперони Пицца-соус, сыр Моцарелла, салями, перчики Халапеньо. Mega pepperoni Pizza sauce, Mozzarella, salami, jalapeno peppers.",
+      "adds": [
+        "без перчиков халапенью"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "пицца",
+      "title": "Мексиканка",
+      "price": 478,
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Meksikanka_30sm/Medium.png?hash=aeba4ee8463057480d213e41ce94c780",
+      "desc": "Пицца Мексиканка Мега сытная пицца с ароматным, пряным, мясным рагу Чили кон карне и сливочным соусом Крема де сальса,фасолью. Mexican Mega hearty pizza with aromatic, spicy, meaty Chili con carne stew and creamy Crema de salsa sauce,beans.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "пицца",
+      "title": "Охотничья ",
+      "price": 588,
+      "new": true,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v19/Pitstsa_30sm/Okhotnichia_30sm/Medium.png?hash=995d8e4e0f470638558020ab5996f3b0",
+      "desc": "Пицца Охотничья. Пицца-соус, сыр моцарелла, куриная грудка, копчёная курица, охотничьи колбаски, лук, оливки, маринованные огурцы. Hunter Pizza. Pizza sauce, mozzarella, chicken breast, smoked chicken, hunter’s sausages, onion, olives, marinated cucumbers.",
+      "adds": [
+        "без маринованных огурцов",
+        "без оливок"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "пицца",
+      "title": "Пепперони",
+      "price": 408,
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v1/Pitstsa_30sm/Pepperoni_30sm/Medium.png?hash=21df342a79807048d67e34d64d9a0d1a",
+      "desc": "Пицца Пепперони. Пицца-соус, сыр моцарелла, салями, шампиньоны. Pepperoni Pizza. Pizza sauce, Mozzarella, salami, champignon mushrooms.",
+      "adds": [
+        "без грибов"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "пицца",
+      "title": "По-тайски",
+      "price": 568,
+      "new": true,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Po-taiski_30sm/Medium.png?hash=ae4a86b0d77b8cd38d5c1c870a66548e",
+      "desc": "Пицца по-тайски Соус Пад-тай, сыр Моцарелла, куриное филе маринованное, грибы вешeнки, лук маринованный, перчики Халапеньо, кинза. Thai pizza Pad Thai sauce, Mozzarella, marinated chicken, oyster mushrooms, pickled onions, jalapeno peppers, cilantro.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "пицца",
+      "title": "Фрикасе",
+      "price": 538,
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v1/Pitstsa_30sm/Frikase_30sm/Medium.png?hash=4505c59eb181071c055b86290ff8bd0d",
+      "desc": "Пицца Фрикасе. Куриная грудка, грибы Вешенки, кукуруза, сливочный соус, зелень. Fricassee Pizza. Chicken breast, oyster mushrooms, corn, cream sauce, greens.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "пицца",
+      "title": "Шашлычная с говядиной",
+      "price": 498,
+      "new": true,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Shashlyichnaia_s_goviadinoi_30sm/Medium.png?hash=e6c63ea499be1e778be1711e3b71b0ff",
+      "desc": "Пицца Шашлычная с говядиной. Пицца-соус, сыр моцарелла, маринованная говядина, помидоры, зелень. Подаётся с маринованным луком. Barbecue pizza with beef. Pizza sauce, mozzarella, marinated beef, tomatoes, greens. Served with pickled onions.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "суп",
+      "title": "Ашлям-Фу",
+      "price": 148,
+      "new": false,
+      "size": [
+        "Средний",
+        "Большой"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Supyi/Ashliam-Fu/Medium.png?hash=3dfdb0c55b75043851d6175451fe6e4a",
+      "desc": "Ашлям-фу с говядиной. Холодный острый овощной суп с крахмалом и лапшой. Подаётся с приправой Лаза. Ashlyam Fu with beef. Cold spicy vegetable soup with starch and noodles. Served with seasoning Laza.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "title": "Борщ",
+      "category": "суп",
+      "price": "308",
+      "new": "false",
+      "size": "Средний,Большой",
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Supyi/Borshch/Medium.png?hash=5a4ade6e4833f57818f5149b77dcd2cf",
+      "desc": "Борщ. Подаётся с чесночными сухариками и сметаной. Borsch. Served with garlic croutons and sour cream.",
+      "adds": [],
+      "id": 22
+    },
+    {
+      "title": "Барбекю",
+      "category": "пицца",
+      "price": "488",
+      "new": false,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Barbekiu_30sm/Medium.png?hash=b35d2b33c43f3083ad5154b1c8ab1859",
+      "desc": "Пицца Барбекю Сытная домашняя пицца с соусом барбекю, куриным филе, колбасками, грибами, томатами и маринованными огурчиками. BBQ Hearty homemade pizza with barbecue sauce, chicken fillet, sausages, mushrooms, tomatoes and pickled cucumbers.",
+      "adds": [],
+      "id": 23
+    },
+    {
+      "title": "Пирожное \"Картошка\"",
+      "category": "пирожное",
+      "price": "45",
+      "new": false,
+      "size": [
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://metropolis-online.ru/upload/iblock/4cd/4cde1b17520b3861b0794f02c9007394.png",
+      "desc": "купите пж",
+      "adds": [],
+      "id": 25
+    },
+    {
+      "title": "Алевешка",
+      "category": "салат",
+      "price": "9000000",
+      "new": "true",
+      "size": [
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://s1.eda.ru/StaticContent/Photos/160915225201/200713125730/p_O.jpg",
+      "desc": "вкусна <3",
+      "adds": [],
+      "id": 26
+    },
+    {
+      "title": "Греческий салат",
+      "category": "салат",
+      "price": "150",
+      "new": "true",
+      "size": [
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://img2.freepng.ru/20180909/grx/kisspng-greek-salad-recipe-pizza-fattoush-3c921b53-5b95690ce9c447.9989816215365184129575.jpg",
+      "desc": "Аристотель, подумал Штирлиц",
+      "adds": [
+        "без греков"
+      ],
+      "id": 27
+    },
+    {
+      "title": "шызвшщоп",
+      "category": "напиток",
+      "price": "56",
+      "new": "true",
+      "size": [
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://w7.pngwing.com/pngs/550/238/png-transparent-food-fried-food-food-delicatessen-egg.png",
+      "desc": "рыщпрыщкршп",
+      "adds": [
+        "без яиц",
+        "без ничего"
+      ],
+      "id": 28
+    }
+  ],
+  "users": [
+    {
+      "email": "sasas12@gmail.com",
+      "password": "$2a$10$3bPA6oCT6mCbkJCZNZoWYek7h.kXQFDJOvQZox/kkxbOoob6/sTJW",
+      "login": "1212",
+      "tel": "1212",
+      "orders": [],
+      "id": 1
+    },
+    {
+      "email": "kk@mail.ru",
+      "password": "$2a$10$PrQAE26Tz8EyYVDKLFzQ9O/o79okchbZLwRIwkAypoOwiaRwAm.r.",
+      "login": "lk.lknmm.",
+      "tel": "354354135",
+      "id": 2
+    },
+    {
+      "email": "eie@gmail.com",
+      "password": "$2a$10$wBaENuWIwFCKmmg2aCDTbuga4jgZreMI.Z3CWTFv7W4r3p.6oz72K",
+      "login": "fle",
+      "tel": "1351",
+      "id": 3
+    }
+  ]
+}

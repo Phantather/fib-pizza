@@ -1,0 +1,247 @@
+
+
+.swiper-button-next{
+  &::after {
+    content: url("../images/r-l.svg");
+
+  }
+}
+.swiper-button-prev{
+  &::after {
+    transform: rotate(180deg);
+    content: url("../images/r-l.svg");
+  }
+}
+
+.home {
+  position: relative;
+  &__type {
+    font-weight: 700;
+    cursor: pointer;
+    font-family: Monserrat, sans-serif;
+    &:hover {
+      font-weight: 800;
+    }
+  }
+  &::before {
+    content: url("../images/guy.png");
+    position: absolute;
+    left: 0;
+    top: 300px;
+    z-index: -1;
+  }
+  &::after {
+    content: url("../images/girl.png");
+    position: absolute;
+    right: 0;
+    bottom: 300px;
+    transform: rotate(0deg);
+    z-index: -1;
+  }
+  &__nov {
+    margin-bottom: 33px;
+    color: #231F20;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__novinki {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  &__filter {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    color: #0E0C0D;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  &__filterr {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    color: #0E0C0D;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  &__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 90px / 4);
+    justify-content: space-between;
+
+    img {
+      width: 100%;
+    }
+    &-link {
+
+      font-size: 14px;
+      font-weight: 700;
+    }
+    &-title {
+      color: #797979;
+      //font-size: 24px;
+      font-size: clamp(18px, 5vw, 24px);
+      font-weight: 800;
+      line-height: 28px;
+      margin-bottom: 10px;
+      transition: 0.3s ;
+      &:hover {
+        color: black;
+      }
+    }
+    &-desc {
+      color: #686466;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 19px;
+      margin-bottom: 30px;
+    }
+    &__type {
+      font-weight: 500;
+      font-family: Monserrat, sans-serif;
+
+    }
+    &-down {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-price {
+      color: #231F20;
+      //font-size: 22px;
+      font-weight: 700;
+      font-size: clamp(16px, 5vw, 22px);
+    }
+    &-btn {
+      padding: 8px 23px;
+      border: none;
+      border-radius: 8px;
+      background: #F7D22D;
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+  &__akc {
+    color: #0E0C0D;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+    span {
+      color: #F7D22D;
+    }
+  }
+  &__akcii {
+    display: flex;
+    column-gap: 30px;
+    &-left {
+      width: calc(50% - 15px);
+    }
+    &-right {
+      width: calc(50% - 15px);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    &-img1 {
+      width: 100%;
+      height: 100%;
+    }
+    &-img {
+      width: calc(50% - 10px);
+    }
+    &-btn {
+      padding: 10px 40px;
+      border: none;
+      border-radius: 23px;
+      background: #F7D22D;
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    &-link {
+      text-align: center;
+      margin-top: 40px;
+    }
+  }
+  &__pages-right {
+    transform: rotate(90deg);
+
+  }
+  &__pages-rightt {
+    transform: rotate(-90deg);
+
+  }
+  &__pages {
+    cursor: pointer;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    &__card {
+      &-title {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 815px) {
+  .miniCard {
+    width: 45%;
+    flex-wrap: wrap;
+    img {
+      display: none;
+    }
+  }
+  .home{
+    &__card {
+      width: calc(50% - 30px);
+
+    }
+    &__filter {
+      display: flex;
+      flex-direction: column;
+    }
+    &__filterr {
+      display: flex;
+      flex-direction: column;
+    }
+    &__novinki {
+      //flex-direction: column;
+
+    }
+    &__card-desc {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .home {
+
+    &::before {
+      opacity: 0.3;
+    }
+    &::after {
+      opacity: 0.3;
+    }
+  }
+}

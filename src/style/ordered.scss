@@ -1,0 +1,10 @@
+.ordered {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.placing {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  &__left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+  }
+  &__right {
+    width: 45%;
+  }
+  &__promo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+  }
+}

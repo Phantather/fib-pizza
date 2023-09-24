@@ -1,0 +1,139 @@
+.oneProduct {
+  &__row {
+    display: flex;
+
+  }
+  &__left {
+    width: calc(50% - 10px);
+    img {
+      width: 100%;
+    }
+  }
+  &__right {
+    width: calc(40% - 10px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  &__label {
+    position: relative;
+    cursor: pointer;
+    input[type="checkbox"] {
+      position: absolute;
+      z-index: -1;
+      -webkit-appearance: none;
+      appearance: none;
+
+    }
+  }
+  &__title {
+    color: #0E0C0D;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  &__desc {
+    color: #686466;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  &__sizes {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+
+  }
+  &__size {
+    border-radius: 15px;
+    opacity: 0.9;
+    background: #F7D22D;
+    color: #231F20;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: 3px solid #F7D22D;
+    width: calc(33.33333% - 6.66666px);
+    cursor: pointer;
+  }
+  &__sizech {
+    cursor: pointer;
+    border-radius: 15px;
+    opacity: 0.9;
+    background: #F7D22D;
+    color: #231F20;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: 3px solid #231F20;
+    width: calc(33.33333% - 6.66666px);
+  }
+  &__doughs {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin: 10px 0;
+  }
+  &__dough {
+    border-radius: 15px;
+    opacity: 0.9;
+    background: #F7D22D;
+    color: #231F20;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: 3px solid #F7D22D;
+    width: calc(50% - 5px);
+    cursor: pointer;
+  }
+  &__doughh {
+    cursor: pointer;
+    border-radius: 15px;
+    opacity: 0.9;
+    background: #F7D22D;
+    color: #231F20;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: 3px solid #231F20;
+    width: calc(50% - 5px);
+  }
+  &__peppers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  &__btn {
+    border-radius: 15px;
+    opacity: 0.9;
+    background: #F7D22D;
+    color: #231F20;
+    padding: 15px 30px;
+    border: #F7D22D;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  &__btnd {
+    cursor: pointer;
+    border-radius: 15px;
+    opacity: 0.9;
+    background: green;
+    color: #231F20;
+    padding: 15px 30px;
+    border: green;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+
+  }
+  &__pepper {
+    border-radius: 25px;
+    width: calc(33.33333% - 6.66666px);
+    text-align: center;
+    padding: 10px;
+    &-img {
+      width: 100%;
+    }
+  }
+}
